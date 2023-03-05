@@ -1,0 +1,93 @@
+
+
+.navbar1{
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    background-color: black;
+    z-index: 1; //this css attr overlays sex element over the entire page. 1 specifies it has 1 more stack than entire page =indicates sex can overlay 
+    overlay: ;
+    margin-left: -200px;
+    transition: 0.3s;
+}
+
+.nav-link{
+    font-size: 1.25rem;
+}
+
+.nav-link: active, .nav-link:focus, .nav-link: hover {
+    background-color: seagreen;
+}
+
+.active-sex{
+    margin-left: 0;
+}
+.nav-link1{
+    font-size: 0.8rem;
+}
+.asian-body{
+    background-color: white;
+}
+asianbabe{
+    background-color: black;
+}
+
+.card1{
+    transition: all 1s;
+}
+.card1:hover{
+    transform: scale(1.13);
+}
+
+
+  
+#mobile-menu.is-active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  #mobile-menu.is-active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  #mobile-menu.is-active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .cookie-consent-modal{
+    height: 100vh;
+    width: 200vh;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    right: 0%;
+    z-index: 999;
+    display: none;
+    align-items: flex-end;
+}
+.cookie-consent-modal.active{
+    display: flex;
+}
+.content{
+    background-color: #fff;
+    padding: 5vw 3vw;
+    border-radius: 10px 10px 0 0;
+}
+
+.btns{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2em;
+}
+.btnA{
+    border: none;
+    outline: none;
+    padding: .8em 1.5em;
+    width: 100px;
+    margin-right: 1em;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+.btnA.accept{
+    background-color: rgb(0, 185, 124);
+    color: #fff;
+}
